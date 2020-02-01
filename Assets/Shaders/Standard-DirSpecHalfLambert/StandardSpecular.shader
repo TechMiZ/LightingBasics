@@ -79,7 +79,7 @@ Shader "Standard DirSpecHalfLambert (Specular setup)"
 			#pragma vertex vertForwardBase
 			#pragma fragment fragForwardBase
 
-			#include "UnityStandardCore2.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -114,7 +114,7 @@ Shader "Standard DirSpecHalfLambert (Specular setup)"
 			#pragma vertex vertForwardAdd
 			#pragma fragment fragForwardAdd
 
-			#include "UnityStandardCore2.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -174,7 +174,7 @@ Shader "Standard DirSpecHalfLambert (Specular setup)"
 			#pragma vertex vertDeferred
 			#pragma fragment fragDeferred
 
-			#include "UnityStandardCore2.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -237,7 +237,7 @@ Shader "Standard DirSpecHalfLambert (Specular setup)"
 			#pragma vertex vertForwardBase
 			#pragma fragment fragForwardBase
 
-			#include "UnityStandardCore2.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -268,7 +268,7 @@ Shader "Standard DirSpecHalfLambert (Specular setup)"
 			#pragma vertex vertForwardAdd
 			#pragma fragment fragForwardAdd
 
-			#include "UnityStandardCore2.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
